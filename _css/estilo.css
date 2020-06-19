@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Menu*/
+.menu ul{
+
+}
+.menu li{
+    display: inline-block;
+}   
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
