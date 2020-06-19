@@ -1,17 +1,25 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.principal{
+    background-color: black;
+    width: 80%;
+    margin: auto;
+}
 /*Menu*/
 .menu ul{
-
+    text-align: right;
 }
 .menu li{
     display: inline-block;
+    
 }   
 .menu a{
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 1.3em;
+    padding: 7px;
 }
+
 
