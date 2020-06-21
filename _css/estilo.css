@@ -5,6 +5,10 @@ body{
     background-color: rgb(14, 14, 14);
     width: 80%;
     margin: auto;
+    border-top: 1px solid transparent;
+}
+h2{
+    font-size: 1.4em;
 }
 
 /*grid*/
@@ -36,10 +40,16 @@ body{
     margin: 1% 2% 1% 0;
 }
 
+/*imagens*/
+.imagem-esquerda{
+    float: left;
+    margin: 0 0.8em 0 0;
+}
 
 /*Menu*/
 .menu ul{
     text-align: right;
+    margin: 3.5em 0 1.5em 0;
 }
 .menu li{
     display: inline-block;
@@ -49,10 +59,13 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     color: white;
-    font-size: 1.3em;
-    padding: 7px;
+    font-size: 1.4em;
+    padding: 0.3em;
     letter-spacing: 0.1em;
-
+    transition: color 0.7s linear;
+}
+.menu a:hover{
+    color: rgb(196, 188, 188);
 }
 
 
@@ -61,7 +74,24 @@ body{
     border-top: 2px solid rgb(219, 219, 219);
     line-height: 1.4;
 }
+.corpo a{
+    color: rgb(0, 0, 0);
+    transition: all 0.5s linear;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+.corpo a:hover{
+    text-decoration: none;
+    color: rgb(38, 12, 97);
+    border-color: transparent;
+}
 
+.noticia{
+    padding: 15px;
+}
+.noticia iframe{
+    width: 100%;
+}
 /*rodapé*/
 .rodape{
     border-top: 2px solid rgb(219, 219, 219);
