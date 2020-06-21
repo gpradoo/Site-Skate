@@ -111,9 +111,17 @@ p{
 .menu a:hover{
     color: rgb(14, 112, 14);
 }
+.logo-menu{
+    position: relative;
+    right: 20%;
+    color: ivory;
+}
 
 
 /*corpo*/
+.principal{
+    box-shadow: 2px 3px 5px black;
+}
 .corpo{
     border-top: 2px solid rgb(219, 219, 219);
     line-height: 1.4;
@@ -142,16 +150,15 @@ p{
     border-top: 2px solid rgb(219, 219, 219);
     padding: 15px;
 }
-.rodape-conteudo{
-    margin: 0 40%;
-}
 .rodape p{
     color: white;
     font-family: 'krona one', Arial, Helvetica, sans-serif;
     font-size: 0.9em;
+    margin-left: 36%;
 }
 .rodape-icones{
     list-style: none;
+    margin-left: 40%;
 }
 .rodape-icones li{
     display: inline-block;
@@ -159,8 +166,8 @@ p{
 .rodape-icones a{
     color: white;
     font-size: 1.2em;
-    padding: 0.25em;
-    transition: color 0.5s;
+    padding: 0.3em;
+    transition: color 0.7s;
 }
 .rodape-icones a:hover{
     color: rgb(29, 197, 29);
