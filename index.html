@@ -5,6 +5,7 @@
     <title>Home</title>
     <meta name="description" content="Site de skate para notícias, fotos, vídeos e picos.">
 
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
     <link rel="stylesheet" href="_css/normalize.css">
     <link rel="stylesheet" href="_css/estilo.css">
 </head>
@@ -14,11 +15,11 @@
             <nav class="menu">
                 <ul>
                     <li>Logo</li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Eventos</a></li>
-                    <li><a href="#">Picos</a></li>
-                    <li><a href="#">Quem somos</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="picos.html">Picos</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </header>
@@ -28,7 +29,7 @@
                     <div class="row-principal">
                         <article class="noticia">
                             <h1>Relembre essa part do Luan de Oliveira</h1>
-                            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/BmX9kwHKLyg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BmX9kwHKLyg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </article>
                     </div>
                 </div>
@@ -36,7 +37,7 @@
                     <div class="row-1">
                         <article class="noticia">
                             <h2>Olimpíadas</h2>
-                            <p>Com o corona vírus as olimpíadas foram adiadas para o ano de 2021. Até lá iriam ter várias estapas dos campeonatos para ver quem se classificaria para as olimpíadas, mas eles também foram cancelados e sem data para retorno.</p>
+                            <p>As olimpíadas foram adiadas para o ano de 2021. Os campeonatos para ver quem se classificaria para as Olimpíadas também foram cancelados e sem data para retorno.</p>
                         </article>
                     </div>
                     <div class="row-2">
@@ -78,7 +79,7 @@
                     <div class="row-principal">
                         <article class="noticia">
                             <h1>Relembre a part do Nyjah Huston na Nike</h1>
-                            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/XBgbBrxj2to" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/XBgbBrxj2to" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </article>
                     </div>
                 </div>
@@ -92,16 +93,23 @@
                     <div class="row-2">
                         <article class="noticia">
                             <h2>Brasileiros andam de skate em obras de Oscar Niemeyer</h2>
-                            <p>"Vida para algo adormecido", falam os skatista que vão lançar um documentário sobre.</p>
+                            <p>"Vida para algo adormecido", falam os skatista que vão lançar um documentário.</p>
                         </article>
                     </div>
                 </div>
             </div>
+            <input type="button" value="Ver mais" class="botao-ver-mais">
         </main>
 
         <footer class="rodape">
-            <p>MbGp &copy; 2020</p>
-            <p>Facebook / Instagram</p>
+            <div class="rodape-conteudo">
+                <p>MbGp &copy; 2020</p>
+                <ul class="rodape-icones">
+                    <li><a href="https://twitter.com/login?lang=pt" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://pt-br.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="contato.html"><i class="fas fa-envelope-square"></i></a></li>
+                </ul>
+            </div>
         </footer>
     </div>
 </body>

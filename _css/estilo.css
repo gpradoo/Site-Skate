@@ -1,5 +1,14 @@
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@font-face{ font-family: 'Krona One', sans-serif;}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@font-face{font-family: 'Roboto Mono', monospace;}
+
+/*geral*/
 body{
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1em; 
 }
 .principal{
     background-color: rgb(14, 14, 14);
@@ -7,14 +16,24 @@ body{
     margin: auto;
     border-top: 1px solid transparent;
 }
-h2{
+h1{
+    font-family: 'krona one', Arial, Helvetica, sans-serif;
     font-size: 1.4em;
+}
+h2{
+    font-family: 'krona one', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+p{
+    text-indent: 10%;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
 /*grid*/
 .grid{
     overflow: auto;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     position: relative;
 }
 .col-2-3{
@@ -44,28 +63,53 @@ h2{
 .imagem-esquerda{
     float: left;
     margin: 0 0.8em 0 0;
+    border-radius: 2%;
+    max-width: 100%;
 }
+
+/*botão*/
+.botao-ver-mais{
+    background-color: rgb(29, 197, 29);
+    border: 3px solid rgb(29, 197, 29);
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0.3em 0.8em;
+    border-radius: 5px;
+    display: inline-block;
+    width: auto;
+    letter-spacing: 0.1em;
+    margin: 2% 42.5% 0 42.5%;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.botao-ver-mais:hover{
+    background-color: rgb(14, 112, 14);
+    border-color: rgb(14, 112, 14);
+    color: white;
+    outline: none;
+}
+
 
 /*Menu*/
 .menu ul{
     text-align: right;
-    margin: 3.5em 0 1.5em 0;
+    margin: 3.5em 2% 1.5em 0;
 }
 .menu li{
     display: inline-block;
-    
 }   
 .menu a{
+    font-family: 'krona one' ,Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding: 0.3em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.07em;
     transition: color 0.7s linear;
 }
 .menu a:hover{
-    color: rgb(196, 188, 188);
+    color: rgb(14, 112, 14);
 }
 
 
@@ -73,6 +117,7 @@ h2{
 .corpo{
     border-top: 2px solid rgb(219, 219, 219);
     line-height: 1.4;
+    margin-bottom: 2%;
 }
 .corpo a{
     color: rgb(0, 0, 0);
@@ -82,7 +127,7 @@ h2{
 }
 .corpo a:hover{
     text-decoration: none;
-    color: rgb(38, 12, 97);
+    color: rgb(14, 112, 14);
     border-color: transparent;
 }
 
@@ -95,9 +140,28 @@ h2{
 /*rodapé*/
 .rodape{
     border-top: 2px solid rgb(219, 219, 219);
-    padding: 10px;
+    padding: 15px;
+}
+.rodape-conteudo{
+    margin: 0 40%;
 }
 .rodape p{
     color: white;
-    text-align: center;
+    font-family: 'krona one', Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+.rodape-icones{
+    list-style: none;
+}
+.rodape-icones li{
+    display: inline-block;
+}
+.rodape-icones a{
+    color: white;
+    font-size: 1.2em;
+    padding: 0.25em;
+    transition: color 0.5s;
+}
+.rodape-icones a:hover{
+    color: rgb(29, 197, 29);
 }
