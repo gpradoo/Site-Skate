@@ -145,6 +145,10 @@ p{
 .noticia iframe{
     width: 100%;
 }
+
+#ver-mais{
+    display: none;
+}
 /*rodapé*/
 .rodape{
     border-top: 2px solid rgb(219, 219, 219);

@@ -5,6 +5,8 @@
     <title>Home</title>
     <meta name="description" content="Site de skate para notícias, fotos, vídeos e picos.">
 
+    
+    <script src="_js/script.js"></script>
     <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
     <link rel="stylesheet" href="_css/normalize.css">
     <link rel="stylesheet" href="_css/estilo.css">
@@ -37,7 +39,7 @@
                     <div class="row-1">
                         <article class="noticia">
                             <h2>Olimpíadas</h2>
-                            <p>As olimpíadas foram adiadas para o ano de 2021. Os campeonatos para ver quem se classificaria para as Olimpíadas também foram cancelados e sem data para retorno.</p>
+                            <p>As olimpíadas foram adiadas para o ano de 2021. Os campeonatos para ver quem se classificaria também foram cancelados e sem data para retorno.</p>
                         </article>
                     </div>
                     <div class="row-2">
@@ -98,7 +100,35 @@
                     </div>
                 </div>
             </div>
-            <input type="button" value="Ver mais" class="botao-ver-mais">
+
+            <!--Veja mais-->
+            <div class="grid" id="ver-mais">
+                <div class="col-2-3">
+                    <div class="row-principal">
+                        <article class="noticia">
+                            <h1>Relembre a part do Nyjah Huston na Nike</h1>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/XBgbBrxj2to" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-1-3">
+                    <div class="row-1">
+                        <article class="noticia">
+                            <h2>Sandro Dias anda em lugar inusitado</h2>
+                            <p>Sandro Dias fez um vídeo promocional e andou na ponte estaida, <a href="https://www.youtube.com/watch?v=2C-aQcpHe2s" target="_blank"></a>confira</a>.</p>
+                        </article>
+                    </div>
+                    <div class="row-2">
+                        <article class="noticia">
+                            <h2>Brasileiros andam de skate em obras de Oscar Niemeyer</h2>
+                            <p>"Vida para algo adormecido", falam os skatista que vão lançar um documentário.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+
+            <input type="button" value="Ver mais" class="botao-ver-mais" onclick="vejaMais()">
         </main>
 
         <footer class="rodape">
