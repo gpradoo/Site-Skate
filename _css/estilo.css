@@ -177,15 +177,17 @@ p{
     color: rgb(29, 197, 29);
 }
 
+/*banner*/
 
-.lateral-esquerda{
-    position: fixed;
+.lateral-esquerda img{
     width: 10%;
-    height: 100%;   
-    background-color: rgb(36, 36, 36);
-    color: white;
-    font-size: 1.5em;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+
 }
+
 
 
 
@@ -197,3 +199,11 @@ p{
 .quem-somos p{
     color: rgb(236, 236, 236);
 }
+.quem-somos img{
+    margin-top: 30px;
+    position: relative;
+    left: 17.5%;
+    border: 2px white solid;
+    box-shadow: 2px 2px 5px rgb(82, 82, 82);
+}
+
