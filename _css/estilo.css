@@ -199,11 +199,35 @@ p{
 .quem-somos p{
     color: rgb(236, 236, 236);
 }
-.quem-somos img{
+.foto-quem-somos{
     margin-top: 30px;
     position: relative;
-    left: 17.5%;
+    left: 15%;
+}
+img{
+    max-width: 100%;
+}
+.foto-quem-somos img{
     border: 2px white solid;
     box-shadow: 2px 2px 5px rgb(82, 82, 82);
+}
+.foto-quem-somos figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 71%;
+    height: 99%;
+    transition: opacity 1s;
+}
+.foto-quem-somos figcaption:hover{
+    opacity: 1;
+}
+.foto-quem-somos figcaption p{
+    font-size: 1.4em;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    right: 68%;
 }
 
