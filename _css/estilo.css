@@ -272,3 +272,10 @@ img{
 #nomeUsuario:focus, #emailUsuario:focus, #textoUsuario:focus{
     border: 2px solid rgb(14, 112, 14);
 }
+
+
+/*eventos*/
+.col-2-3-eventos{
+    background-color: white;
+    color: black;
+}
