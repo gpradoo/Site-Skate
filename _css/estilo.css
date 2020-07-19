@@ -231,3 +231,44 @@ img{
     right: 68%;
 }
 
+
+/*Contato*/
+.formulario{
+    color: white;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.texto-contato{
+    color: white;
+    position: relative;
+    left: 7%;
+    margin-top: 30px;
+}
+.texto-contato p{
+    text-indent: 5%;
+}
+.formulario label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.formulario input, .formulario textarea{
+    border-radius: 5px;
+}
+.formulario input:focus, .formulario textarea:focus{
+    background-color: rgb(230, 230, 230);
+}
+#nomeUsuario, #emailUsuario, #textoUsuario{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 2px solid white;
+    resize: none;
+    outline: none;
+}
+#nomeUsuario:focus, #emailUsuario:focus, #textoUsuario:focus{
+    border: 2px solid rgb(14, 112, 14);
+}
