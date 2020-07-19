@@ -1,0 +1,22 @@
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@font-face{ font-family: 'Krona One', sans-serif;}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@font-face{font-family: 'Roboto Mono', monospace;}
+
+.picos{
+    color: white;
+}
+.picos h2{
+    position: relative;
+    left: 7%;
+    margin-top: 30px;
+}
+.picos p{
+    padding: 15px;
+}
+.mapa-picos{
+    width: 90%;
+    margin: 5% 5% 2% 5%;
+}

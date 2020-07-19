@@ -142,6 +142,7 @@ p{
 .noticia{
     padding: 15px;
 }
+
 .noticia iframe{
     width: 100%;
 }
@@ -202,7 +203,8 @@ p{
 .foto-quem-somos{
     margin-top: 30px;
     position: relative;
-    left: 15%;
+    left: 15%;  
+    margin-bottom: 5%;
 }
 img{
     max-width: 100%;
