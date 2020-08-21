@@ -154,7 +154,7 @@ p{
 /*Menu*/
 .menu ul{
     text-align: right;
-    margin: 3.5em 2% 1.5em 0;
+    margin: 8% 0% 5% 0%;
 }
 .menu li{
     display: inline-block;
@@ -174,7 +174,7 @@ p{
 }
 .logo-menu{
     position: relative;
-    right: 20%;
+    right: 15%;
     color: ivory;
 }
 
@@ -291,7 +291,7 @@ img{
     font-weight: 800;
     position: absolute;
     top: 30%;
-    right: 68%;
+    right: 60%;
 }
 
 
