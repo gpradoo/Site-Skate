@@ -47,8 +47,8 @@ p{
 }
 .grid2{
     overflow: auto;
-    background-color: white;
-    position: static;
+    background-color: rgb(14, 14, 14);
+    position: relative;
 }
 .col-2-3{
     background-color: white;
@@ -67,12 +67,7 @@ p{
     float: left;
     margin: 2% 0.5% 1% 2%;
 }
-.col-4-3{
-    background-color: white;
-    width: 63.5%;
-    float: left;
-    margin: 2% 0.5% 1% 2%;
-}
+
 .row-1{
     background-color: white;
     position: absolute;
@@ -86,23 +81,30 @@ p{
     margin: 1% 2% 1% 0;
     height: 50%;
 }
-.row-1.2{
+.row-3{
     background-color: white;
-    position: absolute;
-    margin: 0 2% 2% 0;
-    height: 50%;
+    position: relative;
+    margin: 1% 2% 2% 1%;
+    height: 75%;
 }
-.row-2.2{
+.row-4{
     background-color: white;
-    position: absolute;
+    position: relative;
     bottom: 0;
-    margin: 1% 2% 1% 0;
+    margin: 1% 2% 2% 1%;
     height: 50%;
 }
 
 /*imagens*/
 .imagem-esquerda{
     float: left;
+    margin: 0 0.8em 0 0;
+    border-radius: 2%;
+    width: 100%;
+    height: 100%;
+}
+.imagem-direita{
+    float: right;
     margin: 0 0.8em 0 0;
     border-radius: 2%;
     width: 100%;
@@ -249,7 +251,22 @@ p{
     background-position: center;
 
 }
+.lateral-direita{
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    float: right;
 
+}
+.lateral-direita img{
+    float: right;
+    margin: 0 0.8em 0 0;
+    border-radius: 2%;
+    width: 100%;
+    height: 100%;
+}
 
 
 
