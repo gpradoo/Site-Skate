@@ -1,9 +1,12 @@
+@charset "utf-8";
 /*fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @font-face{ font-family: 'Krona One', sans-serif;}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @font-face{font-family: 'Roboto Mono', monospace;}
+
+
 
 /*geral*/
 body{
@@ -387,5 +390,4 @@ img{
     background-color: white;
     color: black;
 }
-
 
