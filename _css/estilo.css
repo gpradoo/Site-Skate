@@ -237,7 +237,16 @@ p{
     padding: 0.3em;
     transition: color 0.7s;
 }
-.rodape-icones a:hover{
+.twitter:hover{
+    color: #00acee;
+}
+.facebook:hover{
+    color: #3b5998;
+}
+.instagram:hover{
+    color: #8a3ab9;
+}
+.email:hover{
     color: rgb(29, 197, 29);
 }
 
@@ -261,6 +270,32 @@ p{
 }
 
 /*noticias*/
+.pagina-noticia{
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+.pagina-noticia h2{
+    margin-top: 4%;
+}
+.pagina-noticia p{
+    margin-top: 5%;
+    font-size: 0.9em;
+}
+.pagina-noticia a{
+    color: white;
+    transition: all 0.5s linear;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+.pagina-noticia a:hover{
+    text-decoration: none;
+    color: rgb(14, 112, 14);
+    border-color: transparent;
+}
+.pagina-noticia iframe{
+    width: 100%;
+}
 
 
 /*quem somos*/
